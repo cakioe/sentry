@@ -307,6 +307,8 @@ SENTRY_FEATURES.update(
             "organizations:performance-screens-view",
             "organizations:mobile-ttid-ttfd-contribution",
             "organizations:starfish-mobile-appstart",
+            "organizations:standalone-span-ingestion",
+            "organizations:spans-first-ui",
         )  # starfish related flags
     }
 )

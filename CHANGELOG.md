@@ -1,5 +1,56 @@
 # Changelog
 
+## 24.5.0
+
+### Various fixes & improvements
+
+- fix: Make docker volume script respect compose project name (#3039) by @hubertdeng123
+- remove ref to skip writes (#3041) by @john-z-yang
+- Add clickhouse healthchecks to upgrade (#3024) by @hubertdeng123
+- Upgrade clickhouse to 23.8 (#3009) by @hubertdeng123
+- fix: use nginx realip module (#2977) by @oioki
+- Add upgrade test (#3012) by @hubertdeng123
+- Bump kafka and zookeeper versions (#2988) by @hubertdeng123
+
+## 24.4.2
+
+### Various fixes & improvements
+
+- Edit test file name (#3002) by @hubertdeng123
+- Revert "Sampling: Run e2e tests every 5 minutes" (#2999) by @hubertdeng123
+- Fix master test failures (#3000) by @hubertdeng123
+- Sampling: Run e2e tests every 5 minutes (#2994) by @hubertdeng123
+- Tweak e2e test github action (#2987) by @hubertdeng123
+- fix(performance): Add spans-first-ui flag to enable starfish/performance module views in ui (#2993) by @edwardgou-sentry
+- Bump docker compose version in CI (#2980) by @hubertdeng123
+- Upgrade postgres to 14.11 (#2975) by @mdtro
+- Add workstation configuration (#2968) by @azaslavsky
+
+## 24.4.1
+
+### Various fixes & improvements
+
+- chore(deps): bump memcached and redis to latest patch versions (#2973) by @mdtro
+- Use docker compose exec to create additional kafka topics (#2904) by @saz
+- Add example to docker compose version in problem report (#2959) by @edgariscoding
+- Port last integration tests to python (#2966) by @hubertdeng123
+
+## 24.4.0
+
+### Various fixes & improvements
+
+- Use python for e2e tests (#2953) by @hubertdeng123
+- feat: adds group attributes consumer (#2927) by @scefali
+- fix(spans): Adds organizations:standalone-span-ingestion flag to default config (#2936) by @edwardgou-sentry
+- Bump ubuntu version for tests (#2923) by @hubertdeng123
+- Write Customization tests in python (#2918) by @hubertdeng123
+- feat(clickhouse): Added max_suspicious_broken_parts to the config.xml (#2853) by @victorelec14
+- Port backup tests to python (#2907) by @hubertdeng123
+- Fix defunct java processes (#2914) by @hubertdeng123
+- Integration tests in python (#2892) by @hubertdeng123
+- feat: run outcomes-billing consumer (#2909) by @lynnagara
+- Remove duplicate feature flags (#2899) by @JannKleen
+
 ## 24.3.0
 
 ### Various fixes & improvements
